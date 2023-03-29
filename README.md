@@ -30,3 +30,5 @@
   - Cannot obtain embeddings for nodes not in the training set
   - Cannot capture structural similarity
   - Cannot utilize node, edge and graph features
+
+### Lecture 4: Graph Neural Networks
