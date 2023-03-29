@@ -19,3 +19,14 @@
 - We only considered featurizing the graph structure (but not the attribute of nodes and their neighbors
 
 ### Lecture 3: Node Embeddings
+- Before: Given an input graph, extract node, link and graph-level features, learn a model (SVM, neural network, etc.) that maps features to labels.
+- Now: Graph Representation Learning alleviates the need to do feature engineering every single time.
+- Discussed graph representation learning, a way to learn node and graph embeddings for downstream tasks , without feature engineering
+  - Idea: Map nodes into an embedding space such that similarity of embeddings between nodes indicates their similarity in the network
+  - Downstream tasks: node/graph classification, link prediction, anomalous node detection, etc
+- Diccussed Encoder-decoder framework, Node similarity measure ((biased) random walk) and Extension to Graph embedding
+- Dicussed how to use trained embeddings of nodes
+- Limitations of node embeddings via matrix factorization and random walks
+  - Cannot obtain embeddings for nodes not in the training set
+  - Cannot capture structural similarity
+  - Cannot utilize node, edge and graph features
