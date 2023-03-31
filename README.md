@@ -32,3 +32,5 @@
   - Cannot utilize node, edge and graph features
 
 ### Lecture 4: Graph Neural Networks
+- Introduce Graph Convolutional Network
+- CNN can be viewed as a special GNN
