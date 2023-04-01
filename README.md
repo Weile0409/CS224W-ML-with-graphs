@@ -34,3 +34,10 @@
 ### Lecture 4: Graph Neural Networks
 - Introduce Graph Convolutional Network
 - CNN can be viewed as a special GNN
+
+### Lecture 5: A General Perspective on GNNs
+- GNN layer: Transformation and Aggregation, introduce some classical GNN layers
+- Layer connectivity: Designing # of layers, skip connections
+- Graph manipulation
+  - Feature augmentation
+  - Structure manipulation: Solve sparse graph issue(add virtual nodes/edges), node neighborhood sampling if too many neighbors
