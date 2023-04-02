@@ -41,3 +41,8 @@
 - Graph manipulation
   - Feature augmentation
   - Structure manipulation: Solve sparse graph issue(add virtual nodes/edges), node neighborhood sampling if too many neighbors
+  
+ ### Lecture 6: GNN Augmentation and Training
+ - Introduce a general GNN framework 
+  - Lecture 5: GNN layer, layer connectivity, Graph augmentation
+  - Lecture 6: Learning objectives (The full training pipeline of a GNN)
