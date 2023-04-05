@@ -46,3 +46,5 @@
  - Introduce a general GNN framework 
   - Lecture 5: GNN layer, layer connectivity, Graph augmentation
   - Lecture 6: Learning objectives (The full training pipeline of a GNN)
+
+ ### Lecture 7: Theory of Graph Neural Networks
