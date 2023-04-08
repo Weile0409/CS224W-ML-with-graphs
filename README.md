@@ -42,15 +42,21 @@
   - Feature augmentation
   - Structure manipulation: Solve sparse graph issue(add virtual nodes/edges), node neighborhood sampling if too many neighbors
   
- ### Lecture 6: GNN Augmentation and Training
- - Introduce a general GNN framework 
+### Lecture 6: GNN Augmentation and Training
+- Introduce a general GNN framework 
   - Lecture 5: GNN layer, layer connectivity, Graph augmentation
   - Lecture 6: Learning objectives (The full training pipeline of a GNN)
 
- ### Lecture 7: Theory of Graph Neural Networks
+### Lecture 7: Theory of Graph Neural Networks
 - Design a neural network that can model injective multi-set function
   - Use the neural network for neighbor aggregation function and arrive at GIN---the most expressive GNN model
   - GIN is closely related to the WL graph kernel
   - Both GIN and WL graph kernel can distinguish most of the real graphs
 - General tips for Training (eg. normalization the raw data, optimizer, ...)
 - Debugging deep networks (overfit / loss not converging, ...)
+
+### Lecture 8: Label Propagation on Graphs
+- Discuss 3 ideas that explicitly use labels when making predictions on graphs
+  - Label propagation
+  - Correct & Smooth
+  - Masked label prediction
