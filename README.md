@@ -48,3 +48,9 @@
   - Lecture 6: Learning objectives (The full training pipeline of a GNN)
 
  ### Lecture 7: Theory of Graph Neural Networks
+- Design a neural network that can model injective multi-set function
+  - Use the neural network for neighbor aggregation function and arrive at GIN---the most expressive GNN model
+  - GIN is closely related to the WL graph kernel
+  - Both GIN and WL graph kernel can distinguish most of the real graphs
+- General tips for Training (eg. normalization the raw data, optimizer, ...)
+- Debugging deep networks (overfit / loss not converging, ...)
