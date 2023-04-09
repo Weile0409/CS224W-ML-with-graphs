@@ -3,7 +3,12 @@
 ### Link: http://web.stanford.edu/class/cs224w/
 
 - Colab 0: NetworkX Tutorial, PyTorch Geometric Tutorial, Implementing Graph Neural Networks (GNNs)
-
+  - Train Karate Club Network with GNN (4 classes node classification)
+- Colab 1: Explore multiple graph statistics, Node Emebedding Learning
+  - Train Karate Club Network with node embedding (2 classes node classification)
+- Colab 2: Construct our GNN using PyTorch Geometric (PyG) and then apply that model on two Open Graph Benchmark (OGB) datasets
+  - Node property prediction, predicting properties of single nodes
+  - Graph property prediction, predicting properties of entire graphs or subgraphs.
 
 ## Notes
 ### Lecture 1: Introduction
