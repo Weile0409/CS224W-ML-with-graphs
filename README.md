@@ -65,3 +65,6 @@
   - Label propagation
   - Correct & Smooth
   - Masked label prediction
+
+### Lecture 9: Machine Learning with Heterogeneous Graphs
+- Learning with heterogeneous graphs (generalized everything learn in GNN to heterogeneous graph)
