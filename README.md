@@ -9,7 +9,9 @@
 - Colab 2: Construct our GNN using PyTorch Geometric (PyG) and then apply that model on two Open Graph Benchmark (OGB) datasets
   - Node property prediction, predicting properties of single nodes
   - Graph property prediction, predicting properties of entire graphs or subgraphs.
-
+- Colab 3: GraphSAGE implementation
+  - Implement GraphSage layer and run on the CORA dataset.
+  
 ## Notes
 ### Lecture 1: Introduction
 - Introduce application and use cases of ML in graphs
