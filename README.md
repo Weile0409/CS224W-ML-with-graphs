@@ -68,3 +68,12 @@
 
 ### Lecture 9: Machine Learning with Heterogeneous Graphs
 - Learning with heterogeneous graphs (generalized everything learn in GNN to heterogeneous graph)
+
+### Lecture 10: Knowledge Graph Embeddings
+- Link prediction / Graph completion is one of the prominent tasks on knowledge graphs
+- Introduce TransE / TransR / DistMult/ ComplEx models with different embedding space and expressiveness
+- KG embeddings in Practice
+  - Different KGs may have drastically different relation patterns
+  - There is not a general embedding that works for all KGs, use the table to select models
+  - Try TransE for a quick run if the target KG does not have much symmetric relations
+  - Then use more expressive models, e.g., ComplEx, RotatE (TransE in Complex space)
