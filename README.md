@@ -79,3 +79,8 @@
   - There is not a general embedding that works for all KGs, use the table to select models
   - Try TransE for a quick run if the target KG does not have much symmetric relations
   - Then use more expressive models, e.g., ComplEx, RotatE (TransE in Complex space)
+
+### Lecture 13: GNNs for Recommender Systems
+- Recall@K as a metric for personalized recommendation
+- Why embedding-based models work
+- NGCF, LightGCN, PinSAGE
