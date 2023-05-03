@@ -84,3 +84,12 @@
 - Recall@K as a metric for personalized recommendation
 - Why embedding-based models work
 - NGCF, LightGCN, PinSAGE
+
+### Lecture 14: Deep Generative Models for Graphs
+- Complex graphs can be successfully generated via sequential generation using deep learning
+- Each step a decision is made based on hidden state, which can be
+  - Implicit: vector representation, decode with RNN
+  - Explicit: intermediate generated graphs, decode with GCN
+- Possible tasks:
+  - Imitating a set of given graphs
+  - Optimizing graphs towards given goals
