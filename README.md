@@ -93,3 +93,5 @@
 - Possible tasks:
   - Imitating a set of given graphs
   - Optimizing graphs towards given goals
+  
+### Lecture 16: Scaling Up GNNs to Large Graphs
