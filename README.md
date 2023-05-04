@@ -95,3 +95,9 @@
   - Optimizing graphs towards given goals
   
 ### Lecture 16: Scaling Up GNNs to Large Graphs
+- Introduce three methods for scaling up GNNs
+  - Two methods perform message-passing over small subgraphs in each mini-batch; only the subgraphs need to be loaded on a GPU at a time.
+    - Neighbor Sampling
+    - Cluster-GCN
+  - One method simplifies a GNN into featurepreprocessing operation (can be efficiently performed even on a CPU)
+    - Simplified GCN
